@@ -1,0 +1,14 @@
+body {
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
