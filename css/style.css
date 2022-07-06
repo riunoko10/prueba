@@ -13,17 +13,30 @@ li {
     justify-content: space-between;
 }
 
-.mainButton{
-    background-color: #0392aa;
-    color: white;
+.button {
     border: 0px;
     padding: 5px 10px;
     border-radius: 4px;
     font-weight: bolder;
-    
+}
+
+.button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.mainButton{
+    background-color: #0392aa;
+    color: white;
 }
 .mainButton:hover {
-    cursor: pointer;
     box-shadow: 2px 2px #024e5c;
-    transform: scale(1.1);
+}
+
+.secondaryButton {
+    background-color: #49aa03;
+    color: white;
+}
+.secondaryButton:hover {
+    box-shadow: 2px 2px #275019;
 }
