@@ -12,3 +12,18 @@ li {
     display: flex;
     justify-content: space-between;
 }
+
+.mainButton{
+    background-color: #0392aa;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bolder;
+    
+}
+.mainButton:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px #024e5c;
+    transform: scale(1.1);
+}
