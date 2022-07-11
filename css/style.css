@@ -35,7 +35,6 @@ li {
 }
 .mainButton:hover {
     box-shadow: 2px 2px #024e5c;
-
     transform: scale(1.1);
 }
 
