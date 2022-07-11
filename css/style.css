@@ -46,3 +46,19 @@ li {
     box-shadow: 2px 2px #275019;
 }
 
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 2px;
+    border-radius: 4px;
+
+}
+
+.buscar:focus-within {
+    border: 1px solid blue;
+}
+
+.buscar > input {
+    outline: none;
+    border: 0px;
+}
