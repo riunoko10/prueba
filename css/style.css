@@ -8,9 +8,22 @@ li {
     margin: 0px;
 }
 
+ul {
+    margin: 0px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+    background-color: #e3e4e4;
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px rgb(193, 192, 192);
+}
+
+.navbar > li {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -51,6 +64,9 @@ li {
     border: 1px solid gray;
     padding: 2px;
     border-radius: 4px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 
 }
 
@@ -61,4 +77,8 @@ li {
 .buscar > input {
     outline: none;
     border: 0px;
+}
+
+.iconoBuscar:hover {
+    color: #c06d0e;
 }
