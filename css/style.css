@@ -82,3 +82,22 @@ ul {
 .iconoBuscar:hover {
     color: #c06d0e;
 }
+
+.breedCardContainer {
+    display: flex;
+}
+
+.breedCard {
+    margin: 10px;
+}
+
+.contenedor-imagen {
+    width: 240px;
+    height: 350px;
+    display: flex;
+}
+
+.contenedor-imagen > img {
+    object-fit: cover;
+    width: 100%;
+}
