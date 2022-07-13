@@ -89,6 +89,16 @@ ul {
 
 .breedCard {
     margin: 10px;
+    background-color: #bf4812;
+    box-shadow: 5px 10px 5px #ebebeb;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.breedCard:hover {
+    cursor: pointer;
+    transform: scale(1.02);
 }
 
 .contenedor-imagen {
@@ -97,7 +107,18 @@ ul {
     display: flex;
 }
 
+
 .contenedor-imagen > img {
     object-fit: cover;
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.breedTitle {
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: x-large;
 }
